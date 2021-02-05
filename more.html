@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,67 +23,58 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
         <span class="screen-header__icons-cog"></span>
         <span class="screen-header__icons-cog-notification"></span>
         <i class="fas fa-cog fa-lg"></i>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/121051913_1481813315355151_7269565289946602961_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=BSnw8H1QEJYAX-xgNJW&tp=1&oh=3689b54b64120e1cd07ed2bf4d35dd66&oe=604682DE"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">HunSeok</h4>
+            <h6 class="user-component__subtitle">+ 82 10-6645-0000</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR Code</span>
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4 class="open-chat__title">Open Chat</h4>
-          <span
-            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
-          ></span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#쫀떡이</h5>
-            <h6 class="open-post__hashtags">#cats#cute#cat-owner</h6>
-            <div class="open-post__members">
-              <img
-                src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/121051913_1481813315355151_7269565289946602961_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=BSnw8H1QEJYAX-xgNJW&tp=1&oh=3689b54b64120e1cd07ed2bf4d35dd66&oe=604682DE"
-              />
-              <span class="open-post__member-count">999 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
-          </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img
-                src="https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Fnotepet%2F324ef9157f8845f5a48cb6a406bb68e2.jpg"
-              />
-              <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i><span>1004</span>
-              </div>
-            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
         </div>
       </div>
