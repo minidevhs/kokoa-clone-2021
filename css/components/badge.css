@@ -11,3 +11,16 @@
   left: 15px;
   bottom: 15px;
 }
+
+.badge__warning {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 30px;
+  margin-left: 5px;
+}
