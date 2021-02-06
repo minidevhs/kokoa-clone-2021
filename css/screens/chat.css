@@ -33,4 +33,41 @@
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+}
+
+.message-row img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  margin-right: 15px;
+}
+
+.message__author {
+  opacity: 0.9;
+  font-size: 17px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 13px;
+  border-radius: 13px;
+  margin-right: 5px;
+}
+
+.message__time {
+  opacity: 0.9;
+  font-size: 13px;
 }
